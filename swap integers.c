@@ -18,3 +18,21 @@ int swapping(a,b)
     b = c ;
 printf("values after swapping : first = %d and second = %d \n",a,b);
 }
+/*#include <stdio.h>
+
+ 
+
+int main()
+{
+    int a , b  , temp ;
+    printf("enter value of a and b") ;
+    scanf("%d %d" , &a, &b); 
+    
+    temp = a; 
+    a = b;  
+    b= temp ;
+    
+    
+    printf("New value of a is %d and b is %d" , a ,b); 
+    return 0;
+}*/
